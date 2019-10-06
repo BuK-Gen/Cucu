@@ -24,4 +24,4 @@ client.on ("message", (message) => {
         message.channel.send ("The Broadcast Wast Sent!")
     }
 })
-client.login(token);
+client.login(process.env.token);
