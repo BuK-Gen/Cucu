@@ -1,7 +1,7 @@
 const Discord = require ('discord.js');
 const client = new Discord.Client();
 
-const token = "NjMwMTQzNjg3MjQ1OTU1MDkz.XZkDBQ.h65uri9gmaE6VgWwLpua10Z125o"
+const token = process.env.arcadia
 
 client.on('ready', () =>{
 console.log('CuCu is now online!')
